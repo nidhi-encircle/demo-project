@@ -1,0 +1,245 @@
+<!doctype html>
+<html class="overflow-x-hidden">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cambrian</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon" />
+    </head>
+    <body class="p-0 m-0 font-body overflow-x-hidden">
+        <div class="cur" id="circle">
+            <div class="main-cur"></div><img class="satelite" src="src/images/satellite.svg" alt="">
+        </div>
+        <header class="header py-15 w-full px-15 top-0 left-0 right-0 z-9 sm:pl-30 sm:pr-30 xl:pl-40 xl:pr-40 2xl:pl-40 2xl:pr-100 pt-18 absolute">
+            <div class="mx-auto">
+                <div class="flex items-center flex-wrap justify-between">
+                    <a href="index.html" class="logo w-200 max_desktop:w-210 xl:w-278">
+                        <img src="./src/images/logo.svg" alt="" class="w-100_per">
+                    </a>
+                    <div class=" ml-auto items-center hidden xl:flex w-auto h-auto relative left-0 top-0 transition-all duration-500"
+                        id="cambranMenu">
+                        <ul class="header-menu uppercase not-italic text-18 xl:text-14 flex mx-minus_20 tracking-0.1em flex-col rounded-5 xl:flex-row m-30 xl:m-0 xl:bg-none xl:bg-transparent">
+                            <li class="mx-20 my-20 xl:my-0 transition-all duration-500">
+                                <a href="#our_mission"
+                                    class="text-white block relative">Mission</a>
+                            </li>
+                            <li class="mx-20 my-20 xl:my-0 transition-all duration-500">
+                                <a href="#technology" class="text-white block relative">
+                                Technology
+                                </a>
+                            </li>
+                            <li class="mx-20 my-20 xl:my-0">
+                                <a href="#team" class="text-white block relative">Team</a>
+                            </li>
+                            <li class="mx-20 my-20 xl:my-0">
+                                <a href="#team" class="text-white block relative">Partners</a>
+                            </li>
+                            <li class="mx-20 my-20 xl:my-0">
+                                <a href="#news" class="text-white block relative"> News+media</a>
+                            </li>
+                            <li class="mx-20 my-20 xl:my-0">
+                                <a href="#career" class="text-white block relative">Careers</a>
+                            </li>
+                            <li class="lg:mr-0 mx-20 my-20 xl:my-0">
+                                <a href="#contact" class="text-white block relative">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sm:order-2 ml-auto block items-center xl:hidden z-999" id="toggle">
+                        <button class="bg-none bg-transparent border-none transition-all duration-500">
+                        <span class="h-2 w-30 bg-white block mb-4 rounded-2 transition-all duration-500"></span>
+                        <span class="h-2 w-30 bg-white block mb-4 rounded-2 transition-all duration-500"></span>
+                        <span class="h-2 w-30 bg-white block rounded-2 transition-all duration-500"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner flex flex-col justify-end xl:h-100vh min-h-740 sm:min-h-820 xl:min-h-960 sliderBG w-full bg-no-repeat bg-center bg-cover pr-15 sm:pr-30 md:pr-0 md:pb-60 pb-40 bg-fixed overflow-x-hidden">
+            <div class="h-100pr flex content-center flex-col justify-end">
+                <div class="text-white subHeading tracking-0.15em pl-30 max_desktop:pl-60 lg:pl-98 mb-30 uppercase pb-30 text-24 md:text-34 lg:text-48 relative font-monLight not-italic">
+                    <p>The Catalyst for </p>
+                </div>
+                <div class="w-10/12 md:w-7/12 lg:w-half 2xl:w-half xxxl:w-67_per mb-40 lg:mb-60 ml-30 max_desktop:ml-60 lg:ml-98 relative">
+                    <img src="./src/images/SPACE.svg" alt="" class="img-fluid">
+                </div>
+                <div class="banner-sub ml-30 text-18 max_desktop:ml-60 lg:ml-98 md:text-20 lg:text-24 tracking-0.05em text-opacity-70 leading-38 text-white max-w-693 relative">
+                    <p>Cambrian Works develops technology that is vital to the foundations of a thriving space economy.</p>
+                </div>
+                <div class="w-full pl-15 sm:pl-30 max_desktop:w-60_per md:w-70_per xl:w-half xxl:bottom-122 xl:right-30 flex flex-col md:flex-row items-center justify-between md:pl-0 lg:mr-60 xl:mr-100 xl:pl-30 xl:pr-30 mt-40 lg:mt-70 mx-auto lg:ml-auto">
+                    <a href="#our_mission"
+                        class="scroll-btn text-center inline-block font-heading font-clashsemibold text-12 xl:text-14 2xl:text-18 leading-29 text-white uppercase tracking-0.2em">
+                        <span class="flex items-center relative">
+                            <svg class="bg-center bg-contain transition-all duration-300" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="119px" height="123px" viewBox="0 0 119 123">
+                                <polygon class="arrow" fill="#FFFFFF" points="80.67,66.11 61.46,85.32 61.13,84.99 60.8,85.32 41.6,66.11 42.73,64.98 60.32,82.57 60.32,37.86 
+                                    61.93,37.86 61.93,82.58 79.53,64.98 "/>
+                                <path class="ring" fill="#FFFFFF" fill-opacity="0.15" d="M113.339,90.047c-8.911,16.232-25.282,28.049-45.075,30.35
+                                    c-32.469,3.775-61.851-19.485-65.626-51.955C-1.138,35.972,22.124,6.59,54.593,2.815c27.033-3.143,51.924,12.455,61.682,36.504
+                                    l2.059-0.239C108.396,13.926,82.5-2.443,54.362,0.829C20.796,4.731-3.251,35.106,0.651,68.672
+                                    c3.903,33.566,34.277,57.614,67.843,53.712c20.965-2.438,38.215-15.2,47.263-32.617L113.339,90.047z"/>
+                            </svg>
+                            <p>
+                                scroll down to see more
+                            </p>
+                        </span>
+                    </a>
+                    <ul class="flex mx-minus_10 social mt-20 md:mt-0">
+                        <!-- <li class="mx-24">
+                            <a href="javascript:void(0);"><img src="./src/images/fb.svg" alt=""> </a>
+                        </li> -->
+                        <li class="mx-10">
+                            <a href="https://www.linkedin.com/company/cambrian-works-inc" target="_blank"><img src="./src/images/ld.svg" alt=""> </a>
+                        </li>
+                        <li class="mx-10">
+                            <a href="https://twitter.com/CambrianWorks" target="_blank"><img src="./src/images/twitter.svg" alt="twitter"> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>       
+        <section id="career" class="px-15 md:px-30 sm:pb-50 max_desktop:px-60 lg:pb-100 xl:px-100 pt-0 overflow-x-hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-40">
+                <div>
+                    <h2
+                        class="m-0 mb-15 pb-15 text-34 md:text-48 desktop:text-48 xxl:text-96 font-heading leading-38 md:leading-48 desktop:leading-48 xxl:leading-96 md:tracking-0.2em text-secondary font-clashnormal uppercase border-b border-solid border-secondary border-l-0 border-r-0 border-t-0">
+                        Careers
+                    </h2>
+                    <p
+                        class="text-18 desktop:text-20 md:text-24 leading-34 tracking-0.05em  text-black max-w-643 uppercase font-monMedium mt-30">
+                        Do something today that your future self will thank you for.
+                    </p>
+                    <div class="md:mt-98 ">
+                        <h3
+                            class="text-24 leading-26 desktop:text-30 desktop:leading-30 xl:text-48 xl:leading-48 tracking-0.04em font-clashnormal font-heading uppercase text-secondary mb-25">
+                            Apply for this Job now
+                        </h3>
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Name"
+                                class="border border-black border-solid h-49 md:max-w-full max-w-643 px-15 py-18 w-100_per mb-20 text-18 placeholder-black">
+                            <input type="text" name="" id="" placeholder="Phone"
+                                class="border border-black border-solid h-49 md:max-w-full max-w-643 px-15 py-18 w-100_per mb-20 text-18 placeholder-black">
+                            <input type="text" name="" id="" placeholder="Email"
+                                class="border border-black border-solid h-49 md:max-w-full max-w-643 px-15 py-18 w-100_per mb-20 text-18 placeholder-black">
+                            <div class="mt-20 flex mb-55">
+                                <label for="" class="text-18 text-black mr-35">Resume/CV </label>
+                                <div>
+                                    <a href="javascript:void(0);"
+                                        class="text-secondary text-16 underline capitalize mx-5">Attach</a>
+                                    <!-- <a href="javascript:void(0);" class="text-secondary text-16 underline capitalize mx-5">
+                                    Dropbox</a>
+                                    <a href="javascript:void(0);"
+                                        class="text-secondary text-16 underline capitalize mx-5">Paste</a> -->
+                                </div>
+                            </div>
+                            <button
+                                class="cursor-pointer font-heading font-clashsemibold max_desktop:text-14 text-18 flex items-center text-secondary uppercase tracking-0.2em">submit
+                            <span class="inline-block ml-20"><img src="./src/images/dark-plus.svg"
+                                alt=""></span></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="xxl:mt-53 md:mt-4">
+                    <h2
+                        class="md:text-right mb-40 pb-15 text-18 md:text-18 font-heading leading-29 tracking-0.05em text-secondary capitalize border-b border-solid border-secondary border-l-0 border-r-0 border-t-0 font-monMedium">
+                        Current Job Openings
+                    </h2>
+                    <div class="accordien-section mb-40">
+                        <h4 class="m-0 uppercase text-secondary max_desktop:text-18 desktop:text-20 text-24 leading-29 tracking-0.05em mb-28">
+                            Systems
+                            Architecture &
+                            Engineering
+                        </h4>
+                        <div class="accordian">
+                            <a href="javascript:void(0);"
+                                class="text-18 text-black pr-30 tracking-0.05em relative leading-23 capitalize block py-15 border-gray border-0 border-b border-solid">
+                                UI/UX Developer
+                            <span class="text-gray leading-23 text-18 block">Los Gatos</span>
+                            <span class="absolute right-0 top-25"><img src="./src/images/dark-plus.svg" alt=""  class="transition-all duration-500"></span>
+                            </a>
+                            <div class="content hidden py-17 leading-26">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);"
+                        class="hidden font-heading font-clashsemibold max_desktop:text-14 text-18 flex items-center h-78 text-secondary uppercase tracking-0.2em">view
+                    all position
+                    <span class="inline-block ml-20"><img src="./src/images/dark-plus.svg" alt=""></span></a>
+                </div>
+            </div>
+        </section>
+        <footer id="contact" class="footer_bg bg-cover bg-no-repeat pt-40 px-15 sm:px-30 max_desktop:px-60 xl:px-100 bg-center overflow-x-hidden">
+            <div class="grid xl:grid-cols-2">
+                <div>
+                    <h2
+                        class="m-0 mb-15 pb-15 text-34 leading-38 md:text-48 md:leading-48 desktop:text-48 desktop:leading-48 xxl:text-96 xxl:leading-96 font-heading md:tracking-0.2em text-secondary font-clashnormal uppercase border-b border-solid border-lightWhite border-l-0 border-r-0 border-t-0">
+                        Contact Us
+                    </h2>
+                    <p class="text-18 leading-29 tracking-0.05em mb-60  text-white font-monLight mt-30">
+                        As you plan your next mission, find out how easily we can help to enhance your services. With global
+                        reach, we’re ready to discuss new and improved ways to serve your customers. We can provide flexible
+                        connectivity tailored to your needs. Let’s talk about how we can work together to support your
+                        business objectives.
+                    </p>
+                </div>
+            </div>
+            <div class="grid xl:grid-cols-2 lg:gap-90 gap-40">
+                <form action="">
+                    <div class="lg:flex mx-minus_8">
+                        <div class="flex-1 mx-8">
+                            <input type="text" name="" id="" placeholder="Name"
+                                class="h-39 border-lightWhite mb-18 border-solid border-1 w-100_per py-10 px-15 text-white placeholder-lightWhite capitalize">
+                            <input type="text" name="" id="" placeholder="Phone"
+                                class="h-39 border-lightWhite mb-18 border-solid border-1 w-100_per py-10 px-15 text-white placeholder-lightWhite capitalize">
+                            <input type="text" name="" id="" placeholder="Email"
+                                class="h-39 border-lightWhite mb-18 border-solid border-1 w-100_per py-10 px-15 text-white placeholder-lightWhite capitalize">
+                            <input type="text" name="" id="" placeholder="Company"
+                                class="h-39 border-lightWhite mb-18 border-solid border-1 w-100_per py-10 px-15 text-white placeholder-lightWhite capitalize">
+                        </div>
+                        <div class="flex-1 mx-8">
+                            <textarea name="" id=""
+                                class="border-lightWhite resize-none mb-28 border-solid w-100_per h-153 py-10 px-15 text-white placeholder-lightWhite capitalize "
+                                placeholder="Message"></textarea>
+                            <div class="text-right">
+                                <button href="javascript:void(0);"
+                                    class="ml-auto p-0 font-heading font-clashsemibold max_desktop:text-14 text-18 flex items-center text-secondary uppercase tracking-0.2em">submit
+                                <span class="   "><img src="./src/images/dark-plus.svg"
+                                    alt=""></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <div class="mb-30">
+                        <h5 class="uppercase text-18 leading-17 mb-20 text-white font-monMedium text-opacity-70">OFFICE
+                            LOCATION
+                        </h5>
+                        <p class="text-white text-opacity-70 flex items-center"><img src="./src/images/location.svg" alt=""
+                            class="inline-block mr-10">
+                            Los Gatos address: 12110 Sunset Hills Road, Suite 600 Reston, VA 20190.
+                        </p>
+                    </div>
+                    <div class="mb-30">
+                        <h5 class="uppercase text-18 leading-17 mb-20 text-white font-monMedium text-opacity-70">OFFICE
+                            LOCATION
+                        </h5>
+                        <p class="text-white text-opacity-70 flex items-center"><img src="./src/images/mail.svg" alt=""
+                            class="inline-block mr-10">
+                            info@cambrianworks.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="text-16 mt-20 text-lightWhite tracking-0.05em py-18 border-0 border-t border-solid border-lightWhite lg:text-right">
+                © Cambrian Works 2021. All Rights Reserved. <a href="#javascript:void(0);" class="text-lightWhite"> Privacy
+                Policy</a>
+            </div>
+        </footer>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+
+</html>
